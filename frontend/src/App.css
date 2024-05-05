@@ -25,7 +25,6 @@
   position: relative;  /* Keep the relative position for content layers */
   overflow: initial;  /* Allow the content to scroll */
   height: 7vh;  /* Keep the height to cover the viewport */
-  background-image: url("/bg-nav.jpg");  /* Set the background image */
   background-attachment: fixed;  /* Fix the background image */
   background-size: contain;  /* Adjusted to 'contain' to zoom out the image */
   background-position: center; 
