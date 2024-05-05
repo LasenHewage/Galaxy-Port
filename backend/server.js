@@ -47,7 +47,7 @@ const app = express();
 app.use(express.json());
 
 // CORS middleware
-app.use(cors({ origin: 'https://steady-dieffenbachia-a3dff0.netlify.app' }));
+app.use(cors({ origin: 'https://galaxy-port.netlify.app' }));
 
 // Logger middleware
 app.use((req, res, next) => {
