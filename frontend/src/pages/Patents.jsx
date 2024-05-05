@@ -1,5 +1,5 @@
 import pdfMake from 'pdfmake/build/pdfmake';
-import pdfFonts from 'pdfmake/build/vfs_fonts';
+import * as pdfFonts from 'pdfmake/build/vfs_fonts';
 import { useEffect, useState } from 'react';
 import { GiNotebook } from "react-icons/gi";
 import { FaDownload } from "react-icons/fa";
